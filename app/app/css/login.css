@@ -1,0 +1,84 @@
+body, .modal {
+  font-family: system, -apple-system, '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+  background-color: #002951;
+  color:white;
+}
+
+.btn{
+width:49%;
+}
+.progress{
+	background: #002951;
+	margin: 0px;
+	height: 100%;
+}
+.progress .indeterminate {
+    background-color: #ffffff;
+}
+.azul_back{
+	color:black;
+	background:white;
+}
+nav{
+background:white;
+}
+nav .brand-logo {
+    color: #000;
+}
+[type="checkbox"].filled-in:checked + span:not(.lever)::after {
+	border: 2px solid #ffffff;
+	background-color: #002951;
+}
+input:not([type]):focus:not([readonly]) + label, input[type="text"]:not(.browser-default):focus:not([readonly]) + label, input[type="password"]:not(.browser-default):focus:not([readonly]) + label, input[type="email"]:not(.browser-default):focus:not([readonly]) + label, input[type="url"]:not(.browser-default):focus:not([readonly]) + label, input[type="time"]:not(.browser-default):focus:not([readonly]) + label, input[type="date"]:not(.browser-default):focus:not([readonly]) + label, input[type="datetime"]:not(.browser-default):focus:not([readonly]) + label, input[type="datetime-local"]:not(.browser-default):focus:not([readonly]) + label, input[type="tel"]:not(.browser-default):focus:not([readonly]) + label, input[type="number"]:not(.browser-default):focus:not([readonly]) + label, input[type="search"]:not(.browser-default):focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #fff;
+}
+.input-field .prefix.active{
+	color: #fff;
+}
+.input-field input{
+	color: #fff;
+}
+input:not([type]):focus:not([readonly]) + label, input[type="text"]:not(.browser-default):focus:not([readonly]) + label, input[type="password"]:not(.browser-default):focus:not([readonly]) + label, input[type="email"]:not(.browser-default):focus:not([readonly]) + label, input[type="url"]:not(.browser-default):focus:not([readonly]) + label, input[type="time"]:not(.browser-default):focus:not([readonly]) + label, input[type="date"]:not(.browser-default):focus:not([readonly]) + label, input[type="datetime"]:not(.browser-default):focus:not([readonly]) + label, input[type="datetime-local"]:not(.browser-default):focus:not([readonly]) + label, input[type="tel"]:not(.browser-default):focus:not([readonly]) + label, input[type="number"]:not(.browser-default):focus:not([readonly]) + label, input[type="search"]:not(.browser-default):focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #fff;
+}
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color: #fff;
+}
+.btn:visited, .btn-large:visited, .btn-small:visited {
+    background-color: #fff;
+}
+.input-field input:focus {
+   border-bottom: 1px solid #fff !important;
+   box-shadow: 0 1px 0 0 #fff!important
+ }
+.btn:focus {
+   background-color: #fff;
+ }
+#mensagem{
+	padding: 1px;
+	background: #002951;
+	height:20px;
+	font-size:18px;
+}
+progress{
+	background: #002951;
+	margin: 0px;
+	height: 100%;
+}
+.progress .indeterminate {
+    background-color: #ffffff;
+}
+#salvar_ip,#adm_entrar{
+	background-color: #002951;
+	color:white;
+}
+#ip_conf{
+	margin-right:10px;
+}
+.alerta {
+	position:fixed;
+	bottom:0;
+    height: 10px;
+    width: 100%;
+    background-color: #00FF00;
+}

@@ -1,0 +1,18 @@
+*{
+	text-decoration:none;
+}
+.marvel-device{
+	margin-top:1%;
+}
+.device1{
+	height: 100%;
+	float:left;
+}
+.device2{
+	height: 100%;
+	float:right;
+}
+.marvel-device.s5 {
+	height: 81%;
+	width: 35%;
+}

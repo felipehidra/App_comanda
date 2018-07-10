@@ -1,0 +1,1 @@
+electron-packager . App-Central --overwrite --asar=true --platform=win32 --arch=ia32 --icon=./icon.ico --prune=true --out=release-builds --version-string.CompanyName=Hidratech --version-string.FileDescription=CE --version-string.ProductName="App-Central"

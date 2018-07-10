@@ -1,0 +1,59 @@
+<div class="col s4 m4 l4">
+<form id="enviamodal" action="javascript:func()" method="POST">
+<div class="switch col s2 m2 l2 xl2"><label>Produção<input id="editar" type="checkbox"><span class="lever"></span>Editar</label></div>
+</form>
+</div>
+<div class="col s4 m4 l4">
+<h2 class="titulo"><i class="material-icons medium">local_dining</i> Mesas</h2>
+</div>
+<div class="col s4 m4 l4">
+<button class="btn-floating btn-large waves-effect waves-light right modal-trigger add" href="#modal4"><i class="material-icons">add</i></button>
+</div>
+<div id="campo" class="campo jumbotron nav-wrapper z-depth-5"></div>
+
+<div id="modal1" class="modal">
+		<a class="modal-action modal-close"><i class="material-icons right red-text"><img src="icones\close_w.png"></i></a>
+		<div class="barra azul"><img src="imagem/logo-web.png" width="50"/><span id="mesa"></span></div>
+			<div class="col s4 m4">
+				 <div class="card card_pedido blue-grey lighten-4">
+					 <span class="card-title">Pedidos</span><br>
+					 	<div id="botoes_pedido"></div>
+				 </div>
+			</div>
+			<div class="col s8 m8">
+				<div class="card card_pedido blue-grey lighten-4">
+					<div id="corpo_pedido" class="pedidos container"></div>
+				</div>
+			</div>
+</div>
+	
+ <!--Alertas exclui mesa-->
+<div id="modal2" class="modal alerta">
+<a class="modal-action modal-close"><i class="material-icons right red-text"><img src="icones\close_w.png"/></i></a>
+<div class="barra_alerta azul"><img src="imagem/logo-web.png" width="50"/><span>Atenção</span></div>	
+	<div class="modal-content">
+	<h5 id="corpo_exclui"></h5>
+	</div>
+	<div class="botoes"></div>
+</div>
+ <!--Alertas exclui mesa-->
+
+
+
+<div id="modal4" class="modal center-align alerta">
+<a class="modal-action modal-close"><i class="material-icons right red-text"><img src="icones\close_w.png"></i></a>
+<div class="barra_alerta azul"><img src="imagem/logo-web.png" width="50"/><span>Gerar Mesas</span></div>	
+<div class="modal-content">
+<div class="input-field col s12">
+<i class="material-icons prefix">local_dining</i>
+<input id="n_mesas" type="number" class="validate">
+<label for="n_mesas">Numero de Mesas</label>
+</div>
+<a onclick="geramesa();" class="btn azul_bach">Gerar Mesas</a>
+</div>
+</div>
+ 
+ <!------------------------------------------------------------ Alertas ------------------------------------------>
+<script src="js/move.js"></script>
+<script src="js/mesas.js"></script>
+

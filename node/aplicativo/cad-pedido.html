@@ -1,0 +1,103 @@
+﻿<html>
+<head>
+		<title>Cadastro-Pedido</title>
+			<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+			<meta name='viewport' content='width=device-width, initial-scale=1' />
+			<link rel="stylesheet" href="css/materialize.css">
+			<script src="js/jquery.js"></script>
+			<script src="js/socket.io.js"></script>
+			<script src="js/materialize.js"></script>			
+			<link href="css/style.css" rel="stylesheet">
+			<script type="text/javascript" language="javascript" src="js/cookie.js"></script>
+		</head>
+<body>
+<h4>Novo Pedido</h4>
+<div class="status" id="status"></div><br>
+<form id="envia" action="javascript:" method="POST">
+
+<div class="row">
+     <div class="input-field col s6">
+      <i class="material-icons prefix"><img src="icones/comanda.png" height="40" /></i>
+      <input id="comanda" type="number">
+	  <label for="icon_prefix">Nº da Comanda</label>
+	</div>
+	
+	<div class="input-field col s6">
+      <i class="material-icons prefix"><img src="icones/mesa.png" /></i>
+      <input id="mesa" type="number">
+	  <label for="icon_prefix">Nº da Mesa</label>
+    </div>
+
+
+	<div class="btn-group">
+		<h5>Classes</h5>
+	<div class="z-depth-4" id="classes">
+	
+	</div>
+	</div>
+	<a class="btn waves-effect waves-light red col s6" id="remove"><i class="material-icons prefix"><img src="icones/delete.png" /></i></a>
+	<a onclick="abreobs()" type="button" class="btn waves-effect waves-light green col s6">OBS</a>
+		<div class="card" id="pedido"></div>
+	<button id="enviar" type="submit" class="btn waves-effect waves-light">Enviar Pedido</button>
+</div>
+</form>
+
+<div id="modal1" class="modal">
+<div class="modal-content">
+
+</div>
+<div class="modal-footer">
+<a class="btn modal-close waves-effect waves-light white-text" onclick="Nao_atender();">Não</a>
+<a class="btn modal-close waves-effect waves-light white-text" onclick="atender();">Sim</a>
+</div>
+</div>
+
+<!-------------------------------Nova senha---------------------------->
+<div id="p_senha" class="modal">
+	<nav>
+	<div class="nav-wrapper azul">
+				<a class="brand-logo left"><img src="imagem/pedido2.png" width="50"/> Cadastrar Senha</a>
+				<a class="modal-close right"><i class="material-icons"><img src="icones/close_w.png" /></i></a>
+	</div>
+	</nav>
+			<div class="modal-content">
+			<p>Você não possui uma senha cadastrada. Cadastre sua senha:</p>
+
+			<div class="input-field">
+				<i class="material-icons prefix"><img src="icones/senha.png"></i>
+				<input type="password" id="v_p_senha" name="senha" autofocus />
+				<label for="v_p_senha">Digite sua Senha</label>
+			</div>
+
+			<div class="input-field">
+				<i class="material-icons prefix"><img src="icones/senha.png"></i>
+				<input type="password" id="v_c_p_senha" name="senha" />
+				<label for="v_c_p_senha">Confirme a senha</label>
+			</div>
+
+			</div>
+			<div class="modal-footer">
+				<a id ="salvar_p_senha" class="btn azul waves-effect waves-ligth">Salvar</a>
+			</div>
+		</div>
+<!-------------------------------Nova senha---------------------------->
+<!---------------- modal da OBS ------------------------>
+<div id="obs" class="modal">
+	<nav>
+		<div class="nav-wrapper azul">
+					<a class="brand-logo left"><img src="imagem/pedido2.png" width="50"/> Observações</a>
+					<a class="modal-close right"><i class="material-icons"><img src="icones/close_w.png" /></i></a>
+		</div>
+	</nav>
+    <div class="modal-content">
+      <p>Descreva as observações do Pedido:</p>
+	  <textarea class="form-control" id="observacao" placeholder="Observações"></textarea>
+    </div>
+    <div class="center-align">
+      <a href="#!" class="modal-close waves-effect waves-green btn">OK</a>
+    </div>
+  </div>
+<!---------------- modal da OBS ------------------------>
+<script type="text/javascript" language="javascript" src="js/processopedido.js"></script>
+</body>
+</html> 

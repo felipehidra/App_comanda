@@ -1,0 +1,92 @@
+<div class="col s4 m4 l4"></div>
+<div class="col s4 m4 l4">
+<h2 class="titulo"><i class="material-icons medium">group_add</i> Usuários</h2>
+</div>
+<div class="col s4 m4 l4">
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large azul">
+    <i class="large material-icons">menu</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating waves-effect waves-light abre_modal" data-modal="novo_cadastro" title="Novo Usuário!" ><i class="material-icons">add</i></a></li>
+  </ul>
+</div>
+
+</div>
+
+<div id="campo_usu" class="campo jumbotron center-align">
+
+</div>
+
+<!----------------------------------Modal(Troca de Senha/inicio)-------------------------------------------------------------------------->
+<div id="alerta_geral" class="modal alerta center-align">
+<i class="material-icons right modal-close white-text">close</i>
+		<div class="barra_alerta azul"></div>	
+	<div class="container">  			
+			
+	</div><br>
+			<div class="center-align rodape_alerta"></div>
+	</div>
+<!----------------------------------Modal(Troca de Senha/final)-------------------------------------------------------------------------->
+<!----------------------------------Modal(Novo usuário/inicio)-------------------------------------------------------------------------->
+
+<div id="novo_cadastro" class="modal">
+<i class="material-icons right modal-close white-text">close</i>
+		<div class="barra azul">Novo Cadastro</div>
+	<div class="container">  			
+			<div class="file-field input-field col s6">
+				<img class="circle" id ="Tela" src="imagem/usu.png" Name ="Tela"></img>
+				<input class="Open form-control" type="file" id="foto" name="foto"/><br>
+			</div>	
+			<p class="texto_inicial"></p>
+			<div class="input-field col s6">
+				<select class="browser-default" id="setor">
+				  	<option value="" disabled selected>Escolha o Setor</option>
+				  	<option value="1">Administração</option>
+					<option value="2">Caixa</option>
+					<option value="3">Garçom</option>
+				</select>
+			</div>
+			
+			<div class="col s12">
+			<div class="input-field col s6">
+				<i class="material-icons prefix">account_circle</i>
+				<input id="login" type="text" class="validate" required>
+				<label for="login">Login</label>
+			</div>
+			
+			<div class="input-field col s6">
+				<i class="material-icons prefix">perm_identity</i>
+				<input id="nome" type="text" class="validate" required>
+				<label for="nome">Nome</label>
+			</div>
+			</div>
+
+			<div class="row">
+			<h6 class="col s12">Acessos</h6>
+			<div class="col s6 m6 l6"><p><blockquote class="azul">Aplicativos</blockquote></p>
+			 
+			<p class="col s6 m6 l6" title="Acessar o App-Central"><label><input type="checkbox" id="app1" class="filled-in" /><span>App-Central</span></label></p>
+			<p class="col s6 m6 l6" title="Acessar o App-Comanda"><label><input type="checkbox" id="app2" class="filled-in" /><span>App-Comanda</span></label></p>
+			<p class="col s6 m6 l6" title="Acessar o App-Pedido"><label><input type="checkbox" id="app3" class="filled-in" /><span>App-Pedido</span></label></p>
+			</div>
+			<div class="col s6 m6 l6"><p><blockquote class="azul">Especifico</blockquote></p>
+			<p class="col s4 m4 l4" title="Acesso as configurações dos usuários"><label><input type="checkbox" id="acesso1" class="filled-in" /><span>Usuários</span></label></p>
+			<p class="col s4 m4 l4" title="Acesso ao Estoque"><label><input type="checkbox" id="acesso2" class="filled-in" /><span>Estoque</span></label></p>
+			<p class="col s4 m4 l4" title="Acesso aos Relatórios"><label><input type="checkbox" id="acesso3" class="filled-in" /><span>Relatórios</span></label></p>
+			<p class="col s4 m4 l4" title="Acesso ao Caixa(Abertura/Fechamento)"><label><input type="checkbox" id="acesso4" class="filled-in" /><span>Caixa</span></label></p>
+			<p class="col s4 m4 l4" title="Acesso ao Banco de Dados"><label><input type="checkbox" id="acesso5" class="filled-in" /><span>BDG</span></label></p>
+			<p class="col s4 m4 l4" title="Realizar pedidos e cadastrar comandas no App-Central"><label><input type="checkbox" id="acesso6" class="filled-in" /><span>Aplicativos</span></label></p>
+			</div>
+			</div>
+			<button id="salvar_cadastro" class="btn waves-effect waves-light" data-loading-text="Processando...">Salvar</button>
+		</div>
+	</div>
+
+<!----------------------------------Modal(Dados do usuário/final)-------------------------------------------------------------------------->
+
+<script src="js/usuarios.js"></script>
+<script src="http://malsup.github.io/min/jquery.form.min.js"></script>
+<script type="text/javascript" src="foto\js\fotos.js"></script>
+<script src="js\resize.js"></script>
+

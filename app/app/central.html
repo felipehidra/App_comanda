@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+<script>
+window.$ = window.jQuery = require('jquery');
+const {ipcRenderer} = require('electron');
+</script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.js"></script>
+<link rel="stylesheet" href="css/materialize.css">
+<script src="js/materialize.js"></script>
+<script src="graficos\chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+<link href="css/central.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="row">
+<div class="col s2 m2 l2">
+  <ul id="slide-out" class="sidenav sidenav-fixed">
+       <li><div class="user-view">
+      <div class="background">
+        <img src="imagem/fundo.png">
+      </div>
+      <a><img id="foto_usuario" class="circle"></a>
+      <a><span id="nome_usuario" class="white-text name"></span></a>
+      <a><span id="setor_usuario" class="white-text email"></span></a>
+    </div></li>
+		<li><a class="subheader white-text">Opções</a></li>
+		<li><a id="op1" class="opcoes waves-effect waves-light white-text"><i class="material-icons white-text">local_dining</i> Mesas</a></li>
+		<li><a id="op2" class="opcoes waves-effect waves-light white-text"><i class="material-icons white-text">phone_android</i> Apps</a></li>
+		<li><a id="op3" class="opcoes waves-effect waves-light white-text"><i class="material-icons white-text">date_range</i> Reservas</a></li>
+		<li><a class="subheader white-text">Outros</a></li>
+		<li><a class="opcoes waves-effect waves-light dropdown-trigger white-text" data-target='menu_adm'><i class="material-icons white-text">business_center</i> Administração</a></li>
+		<li><a class="opcoes waves-effect waves-light dropdown-trigger white-text" data-target='config'><i class="material-icons white-text">build</i> Configurações</a></li>
+		<li><a class="waves-effect waves-light white-text modal-trigger" href="#sair"><i class="material-icons white-text">power_settings_new</i> Sair</a></li>
+		<li><div class="divider"></div></li>
+		<li>
+		<div class="card">
+        <div class="card-content black-text">
+		<span class="card-title">Informações</span>
+          <p>Nº de Clientes: <span id="n_cliente"></span></p>
+          <p>Nº de Pedidos: <span id="n_pedido"></span></p>
+        </div>
+      </div>
+	  </li>
+    </ul>
+	
+	<ul id='menu_adm' class='dropdown-content'>
+		<li><a id="op4" class="opcoes"><i class="material-icons">group</i> Usuários</a></li>
+		<li><a id="op5" class="opcoes"><i class="material-icons">dashboard</i> Estoque</a></li>
+		<li><a id="op6" class="opcoes"><i class="material-icons">view_headline</i> Relatórios</a></li>
+		<li><a id="op8" class="opcoes"><i class="material-icons">attach_money</i> Caixa</a></li>
+	</ul>
+	<ul id='config' class='dropdown-content'>
+		<li><a id="op9" class="opcoes"><i class="material-icons">storage</i> Banco de Dados</a></li>
+		<li><a id="op11" class="opcoes"><i class="material-icons">phone_android</i> Aplicativos</a></li>
+		<li><a id="op12" class="opcoes"><i class="material-icons"><img src="http://hidratech.com/imagem/usu.png" width="20"/></i> App-Cliente</a></li>
+	</ul>
+  
+</div>
+
+<!---------------------- Corpo do Sistema ---------------------->
+
+<div id="corpo" class="center-align col s12 m12 l10"></div>  
+
+<!---------------------- Corpo do Sistema ---------------------->
+          
+ </div>       
+
+<div id="sair" class="modal alerta center-align">
+		<div class="barra_alerta azul"><img class="left" src="imagem/logo-web.png" width="50"/><span>Atenção</span></div>	
+		<div class="modal-content">
+			<h4>Deseja realmente sair?</h4>
+		</div>
+			<a class="modal-action modal-close waves-effect waves-ligth btn-large red">não</a>
+			<a id ="close" class="waves-effect waves-ligth btn-large green">SIM</a>
+</div>
+
+ <script src="js/processos.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+<script>window.$ = window.jQuery = require('jquery');</script>
+<script>window.$ = window.jQuery = require('js/jquery.js');</script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+<link href="css/login.css" rel="stylesheet">
+</head>
+<body>
+<nav>
+<div class="nav-wrapper">
+      <a class="brand-logo left"><img src="imagem/icon.ico"/>Hidratech</a>
+</div>
+</nav><br><br>
+<div class="row">
+		<div class="col s2"></div>
+		<div class="center col s8">
+		<form action="javascript:" method="POSt">
+		<img src="imagem/logo-web.png" width="100"/>
+		<div id="mensagem"></div>
+				<div class="input-field" id="div-login">
+					<i class="azul material-icons prefix">person</i>
+					<input type="text" id="login" name="login" autofocus />
+					<label for="login">Login</label>
+				</div>
+		
+				<div class="input-field" id="div-senha">
+					<i class="azul material-icons prefix">vpn_key</i>
+					<input type="password" name="senha" id="senha" />
+					<label for="senha">Senha</label>
+				</div>
+				
+				<p class="center-align"><label>
+						<input type="checkbox" id="lembrar" class="filled-in" />
+						<span>Lembrar dados de acesso</span>
+				</label></p>
+				<!--<p class="col s6"><label>
+						<input type="checkbox" id="login_auto" class="filled-in" />
+						<span>Auto-login</span>
+				</label></p>-->
+				
+				<button id="logar" type="submit" class="btn azul_back waves-effect waves-blue">Entrar</button>
+				<a href="javascript:window.close()" id="logar" type="submit" class="btn azul_back waves-effect waves-blue">Sair</a>
+			</form>
+		</div>
+		<div class="col s2"></div>
+	</div>
+	<div class="alerta"></div>
+</body>
+
+<div id="modal1" class="modal">
+<nav>
+<div class="nav-wrapper">
+      <a class="brand-logo left"><img src="imagem/logo-web.png" width="50"/> Dados de Conexão</a>
+</div>
+</nav>
+    <div class="modal-content">
+	  <p>Defina onde se Conectar:</p>
+		<div class="input-field" id="div-login">
+			<i class="azul material-icons prefix">http</i>
+			<input type="text" id="ip" name="ip" autofocus />
+			<label for="login">Digite o IP do Servidor</label>
+		</div>
+    </div>
+    <div class="modal-footer">
+      <a id ="salvar_ip" class="modal-action modal-close waves-effect waves-ligth btn-flat">Salvar</a>
+    </div>
+  </div>
+	
+	<div id="p_senha" class="modal">
+		<nav>
+		<div class="nav-wrapper">
+					<a class="brand-logo left"><img src="imagem/logo-web.png" width="50"/> Cadastrar Senha</a>
+		</div>
+		</nav>
+				<div class="modal-content">
+				<p>Você não possui uma senha cadastrada. Cadastre sua senha:</p>
+
+				<div class="input-field">
+					<i class="azul material-icons prefix">key</i>
+					<input type="text" id="v_p_senha" name="senha" autofocus />
+					<label for="v_p_senha">Digite sua Senha</label>
+				</div>
+
+				<div class="input-field">
+					<i class="azul material-icons prefix">key</i>
+					<input type="text" id="v_c_p_senha" name="senha" />
+					<label for="v_c_p_senha">Confirme a senha</label>
+				</div>
+
+				</div>
+				<div class="modal-footer">
+					<a id ="salvar_p_senha" class="azul_back waves-effect waves-ligth btn-flat">Salvar</a>
+				</div>
+			</div>
+
+<div id="modal2" class="modal">
+<nav>
+<div class="nav-wrapper">
+      <a class="brand-logo left"><img src="imagem/logo-web.png" width="50"/> Acesso como ADM</a>
+</div>
+</nav>
+    <div class="modal-content">
+	  <p>Insira a senha correta para acessar como ADM:</p>
+	  <h5>Senha Variável: <span id="aleatorio"></span></h5>
+		<div class="input-field" id="div-login">
+			<i class="azul material-icons prefix">lock_outline</i>
+			<input type="text" id="senha_adm" name="senha_adm" autofocus />
+			<label for="login">Digite a senha</label>
+		</div>
+    </div>
+    <div class="modal-footer">
+      <a id ="adm_entrar" class="modal-action modal-close waves-effect waves-ligth btn">Entrar</a>
+    </div>
+  </div>
+  
+  <script src="js/login.js"></script>
+</html>

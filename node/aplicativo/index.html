@@ -1,0 +1,115 @@
+﻿<html>
+		<head>
+		<title>Cadastro-Comanda</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name='viewport' content='width=device-width, initial-scale=1' />
+		<link rel="stylesheet" href="css/materialize.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/socket.io.js"></script>
+		<script src="js/materialize.js"></script>			
+		<link href="css/style.css" rel="stylesheet">
+		<script type="text/javascript" language="javascript" src="js/cookie.js"></script>
+		</head>
+<body>
+<h4>Nova Comanda</h4>
+<div class="status" id="status"></div><br>
+<form id="envia" data-novo="true" data-id="" action="javascript:" method="POST">
+
+<div class="row">
+	<div class="input-field col s12">
+        <i class="material-icons prefix"><img src="icones/mesa.png" /></i>
+        <input id="comanda" type="number" class="validate" required>
+        <label for="icon_prefix">Nº Comanda</label>
+    </div>
+		
+	<div class="input-field col s12">
+    	<i class="material-icons prefix"><img src="icones/cell.png" /></i>
+        <input id="telefone" type="tel" class="validate" required>
+        <label for="icon_telephone">Telefone</label>
+    </div>
+		
+	<div class="input-field col s8">
+      <i class="material-icons prefix"><img src="icones/cli.png" /></i>
+        <input id="nome" type="text" class="validate">
+        <label for="icon_prefix">Nome</label>
+    </div>
+		
+	<select class="browser-default col s4" id="dependentes">
+		<option value="" disabled selected>Dependentes</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="3">4</option>
+		<option value="3">5</option>
+		<option value="3">6</option>
+		<option value="3">7</option>
+		<option value="3">8</option>
+		<option value="3">9</option>
+		<option value="3">10</option>
+	</select>
+		
+	
+	<div class="input-field col s12">
+    	<i class="material-icons prefix"><img src="icones/email.png" /></i>
+    	<input id="email" type="email">
+		<label for="icon_prefix">E-mail</label>
+	</div>
+	<br>
+	</div>
+	<button type="submit" class="btn waves-effect waves-light">Cadastrar</button>
+	<a class="waves-effect waves-light btn modal-trigger green" href="#pesquisa">Pesquisar</a>
+</form>
+
+<div id="pesquisa" class="modal">
+	<nav>
+	<div class="nav-wrapper azul">
+				<a class="brand-logo left"><img src="imagem/comanda.png" width="50"/> Buscar Cadastro</a>
+				<a class="modal-close right"><i class="material-icons"><img src="icones/close_w.png" /></i></a>
+	</div>
+	</nav>
+		<p>Digite o nome do Cliente para buscar os dados:</p>
+			<div class="modal-content">
+				<div class="input-field col s12">
+					<i class="material-icons prefix"><img src="icones/busca.png" /></i>
+					<input id="pesquisa_nome" type="text" class="validate">
+					<label for="pesquisa_nome">Digite o Nome</label>
+				</div>
+			
+			</div>
+			<div class="container" id="retorno_busca_nome"></div>
+	<div class="modal-footer">
+	</div>
+</div>
+
+<!-------------------------------Nova senha---------------------------->
+<div id="p_senha" class="modal">
+	<nav>
+	<div class="nav-wrapper azul">
+				<a class="brand-logo left"><img src="imagem/comanda.png" width="50"/> Cadastrar Senha</a>
+	</div>
+	</nav>
+			<div class="modal-content">
+			<p>Você não possui uma senha cadastrada. Cadastre sua senha:</p>
+
+			<div class="input-field">
+				<i class="material-icons prefix"><img src="icones/senha.png"></i>
+				<input type="password" id="v_p_senha" name="senha" autofocus />
+				<label for="v_p_senha">Digite sua Senha</label>
+			</div>
+
+			<div class="input-field">
+				<i class="material-icons prefix"><img src="icones/senha.png"></i>
+				<input type="password" id="v_c_p_senha" name="senha" />
+				<label for="v_c_p_senha">Confirme a senha</label>
+			</div>
+
+			</div>
+			<div class="modal-footer">
+				<a id ="salvar_p_senha" class="btn azul waves-effect waves-ligth">Salvar</a>
+			</div>
+		</div>
+<!-------------------------------Nova senha---------------------------->
+
+<script type="text/javascript" language="javascript" src="js/processocomanda.js"></script>
+</body>
+</html>

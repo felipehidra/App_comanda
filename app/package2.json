@@ -1,0 +1,16 @@
+{
+ "name": "App-Central",
+ "productName": "App-Central",
+ "version": "0.1.0",
+ "main": "main.js",
+ "devDependencies": {
+  "electron": "^1.8.4",
+  "electron-packager": "^8.7.2"
+ },
+ "dependencies": {
+  "jquery": "^3.3.1",
+  "node-notifier": "^5.2.1",
+  "socket.io-client": "^2.1.0",
+  "user-info": "^1.0.0"
+ }
+}

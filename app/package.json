@@ -1,0 +1,21 @@
+{
+ "name": "App-Central",
+ "productName": "App-Central",
+ "version": "0.1.0",
+ "main": "main.js",
+ "scripts": {
+  "start": "electron ."
+ },
+ "devDependencies": {
+  "electron": "^1.8.4",
+  "electron-packager": "^8.1.0"
+ },
+ "dependencies": {
+  "jquery": "^3.3.1",
+  "jquery-ui": "^1.12.1",
+  "md5": "^2.2.1",
+  "node-notifier": "^5.2.1",
+  "remote": "^0.2.6",
+  "user-info": "^1.0.0"
+ }
+}
