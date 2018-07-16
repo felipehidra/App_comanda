@@ -94,9 +94,12 @@ app.on('ready', function () {
 	
 	globalShortcut.register('CommandOrControl+Alt+L', function () {
 		if(controle_janela){
-			win.webContents.openDevTools()
+			win.webContents.openDevTools();
 		}else{
-			Prin.webContents.openDevTools();
+			console.log(dados_usuario[0].nome)
+			if(dados_usuario[0].nome == "ADM"){
+				Prin.webContents.openDevTools();
+			}
 		}	
 	})
 	

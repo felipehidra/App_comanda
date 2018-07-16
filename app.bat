@@ -1,2 +1,2 @@
-cd C:\Users\fc\Desktop\server\app\
+cd app\
 npm start
