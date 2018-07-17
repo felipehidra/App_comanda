@@ -29,3 +29,9 @@ Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 17:48 | fc
 Info | Nucleo Online | 16/07/2018 - 17:49 | fc
 Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 17:49 | fc
 Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 17:49 | fc
+Info | Nucleo Online | 16/07/2018 - 22:39 | Felipe
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 22:39 | Felipe
+Info | Erro ao Conectar no Banco de Dados | 16/07/2018 - 22:39 | Felipe
+Info | Nucleo Online | 16/07/2018 - 23:11 | Felipe
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 23:11 | Felipe
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 23:11 | Felipe

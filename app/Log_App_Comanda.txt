@@ -47,3 +47,12 @@ Error | Erro de conexão do Socket | 16/07/2018 - 17:48 | fc
 Error | Erro de conexão do Socket | 16/07/2018 - 17:48 | fc
 Error | Erro de conexão do Socket | 16/07/2018 - 17:49 | fc
 Info | Usuário Felipe de Campos saiu | 16/07/2018 - 17:57 | fc
+Info | Conectado ao Nucleo | 16/07/2018 - 23:12 | Felipe
+Info | Usuário Felipe de Campos entrou | 16/07/2018 - 23:12 | Felipe
+Info | Usuário Felipe de Campos saiu | 16/07/2018 - 23:34 | Felipe
+Info | Conectado ao Nucleo | 16/07/2018 - 23:42 | Felipe
+Info | Usuário Felipe de Campos entrou | 16/07/2018 - 23:43 | Felipe
+Info | Usuário Felipe de Campos saiu | 17/07/2018 - 00:00 | Felipe
+Info | Conectado ao Nucleo | 17/07/2018 - 00:00 | Felipe
+Info | Usuário Felipe de Campos entrou | 17/07/2018 - 00:00 | Felipe
+Info | Usuário Felipe de Campos saiu | 17/07/2018 - 00:02 | Felipe
