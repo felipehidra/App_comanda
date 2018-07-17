@@ -1,0 +1,49 @@
+Info | Usuário undefined entrou | 16/07/2018 - 16:34 | fc
+Error | Conectado ao Nucleo | 16/07/2018 - 16:45 | fc
+Info | Usuário Felipe de Campos entrou | 16/07/2018 - 16:45 | fc
+Info | Conectado ao Nucleo | 16/07/2018 - 16:47 | fc
+Error | Erro ao conectar ao Nucleo | 16/07/2018 - 16:47 | fc
+Error | Erro ao conectar ao Nucleo | 16/07/2018 - 16:47 | fc
+Info | Conectado ao Nucleo | 16/07/2018 - 16:47 | fc
+Info | Usuário Felipe de Campos entrou | 16/07/2018 - 16:47 | fc
+Info | Conectado ao Nucleo | 16/07/2018 - 16:48 | fc
+Info | Usuário Felipe de Campos entrou | 16/07/2018 - 16:48 | fc
+Info | Usuário Felipe de Campos saiu | 16/07/2018 - 16:49 | fc
+Info | Conectado ao Nucleo | 16/07/2018 - 16:49 | fc
+Info | Usuário Felipe de Campos entrou | 16/07/2018 - 16:49 | fc
+Info | Usuário Felipe de Campos realizou logoff | 16/07/2018 - 16:49 | fc
+Info | Usuário Felipe de Campos saiu | 16/07/2018 - 16:49 | fc
+Info | Conectado ao Nucleo | 16/07/2018 - 16:53 | fc
+Info | Usuário Felipe de Campos entrou | 16/07/2018 - 16:54 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 16:54 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 16:54 | fc
+Error | Erro ao conectar ao Nucleo | 16/07/2018 - 17:13 | fc
+Error | Erro ao conectar ao Nucleo | 16/07/2018 - 17:13 | fc
+Error | Erro ao conectar ao Nucleo | 16/07/2018 - 17:13 | fc
+Error | Erro ao conectar ao Nucleo | 16/07/2018 - 17:13 | fc
+Info | Conectado ao Nucleo | 16/07/2018 - 17:13 | fc
+Info | Usuário Felipe de Campos entrou | 16/07/2018 - 17:14 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 17:15 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 17:15 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 17:15 | fc
+Info | Usuário Felipe de Campos saiu | 16/07/2018 - 17:19 | fc
+Info | Conectado ao Nucleo | 16/07/2018 - 17:20 | fc
+Info | Usuário Felipe de Campos entrou | 16/07/2018 - 17:20 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 17:20 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 17:20 | fc
+Info | Conectado ao Nucleo | 16/07/2018 - 17:21 | fc
+Info | Usuário Felipe de Campos entrou | 16/07/2018 - 17:21 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 17:21 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 17:21 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 17:22 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 17:22 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 17:22 | fc
+Error | Erro de conexão ao Nucleo | 16/07/2018 - 17:23 | fc
+Info | Usuário Felipe de Campos saiu | 16/07/2018 - 17:23 | fc
+Info | Conectado ao Nucleo | 16/07/2018 - 17:48 | fc
+Info | Usuário Felipe de Campos entrou | 16/07/2018 - 17:48 | fc
+Error | Erro de conexão do Socket | 16/07/2018 - 17:48 | fc
+Error | Erro de conexão do Socket | 16/07/2018 - 17:48 | fc
+Error | Erro de conexão do Socket | 16/07/2018 - 17:48 | fc
+Error | Erro de conexão do Socket | 16/07/2018 - 17:49 | fc
+Info | Usuário Felipe de Campos saiu | 16/07/2018 - 17:57 | fc

@@ -13,10 +13,6 @@ body{
 	color:white;
 	z-index:-1;	
 }
-.dropdown-content{
-	position: fixed;
-	z-index: 9999;
-}
 .azul span{
 	position:fixed;
 	left:0;
@@ -25,7 +21,7 @@ body{
 }
 .azul img{
 	position: fixed;
-	width: 40px;
+	width: 50px;
 	left: 0;
 }
 .btn-floating:hover{

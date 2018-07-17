@@ -131,6 +131,7 @@ function botoes_usu(){
     $(".resetar_senha").click(function(){
         let id = $(this).attr("data");
         $("#alerta_geral .container").html("<h5>Deseja realmente resetar a senha do usuário <span class='id_usu'></span>!</h5>");
+        $("#alerta_geral .barra_alerta").html("<i class='material-icons'>vpn_key</i> Usuário <span class='id_usu'></span>");
         $("#alerta_geral .rodape_alerta").html('<button class="btn btn-large waves-effect waves-light red modal-close">Não</button><button data="'+id+'" id="salvar_senha" class="btn btn-large waves-effect waves-light green" data-loading-text="Processando...">Sim</button>');
         $(".id_usu").html(id);
         $("#alerta_geral").modal("open");
@@ -139,6 +140,7 @@ function botoes_usu(){
     $(".excluir_usuario").click(function(){
         let id = $(this).attr("data");
         $("#alerta_geral .container").html("<h5>Deseja realmente excluir o usuário <span class='id_usu'></span>!</h5>");
+        $("#alerta_geral .barra_alerta").html("<i class='material-icons'>delete</i> Usuário <span class='id_usu'></span>");
         $("#alerta_geral .rodape_alerta").html('<button class="btn btn-large waves-effect waves-light red modal-close">Não</button><button data="'+id+'" id="excluir_usuario" class="btn btn-large waves-effect waves-light green" data-loading-text="Processando...">Sim</button>');
         $(".id_usu").html(id);
         $("#alerta_geral").modal("open");

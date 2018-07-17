@@ -1,0 +1,31 @@
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 16:16 | fc
+Info | Nucleo Online | 16/07/2018 - 16:17 | fc
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 16:17 | fc
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 16:17 | fc
+Info | Nucleo Online | 16/07/2018 - 16:31 | fc
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 16:31 | fc
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 16:31 | fc
+Info | Nucleo Online | 16/07/2018 - 16:45 | fc
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 16:45 | fc
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 16:45 | fc
+Info | Nucleo Online | 16/07/2018 - 16:47 | fc
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 16:47 | fc
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 16:47 | fc
+Info | Nucleo Online | 16/07/2018 - 17:13 | fc
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 17:13 | fc
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 17:13 | fc
+Info | Nucleo Online | 16/07/2018 - 17:20 | fc
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 17:20 | fc
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 17:20 | fc
+Info | Nucleo Online | 16/07/2018 - 17:22 | fc
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 17:22 | fc
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 17:22 | fc
+Info | Nucleo Online | 16/07/2018 - 17:47 | fc
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 17:47 | fc
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 17:47 | fc
+Info | Nucleo Online | 16/07/2018 - 17:48 | fc
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 17:48 | fc
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 17:48 | fc
+Info | Nucleo Online | 16/07/2018 - 17:49 | fc
+Info | Aplicativos iniciados na porta 4000 | 16/07/2018 - 17:49 | fc
+Info | Nucleo Conectado ao Banco de Dados | 16/07/2018 - 17:49 | fc
